@@ -4,6 +4,9 @@ import re
 import numpy as np
 
 
+## sample run command : python get_unexec_ops.py logs/timeline_logs/timeline_rnnlm_med_0_100.ctf.json new_unexecute_ops.txt ##
+
+
 
 def get_unexec_ops(timeline_fname, out_fname):
     timeline = read_json_file(timeline_fname)
